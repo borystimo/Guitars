@@ -1429,33 +1429,15 @@ body {
   }
 
   .images-favorite__mobile {
-    position: relative;
-    aspect-ratio: 214/461;
-  }
-
-  .images-favorite__mobile img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .images-favorite__card {
-    position: relative;
-    aspect-ratio: 214/461;
-  }
-
-  .images-favorite__card img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 
